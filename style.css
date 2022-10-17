@@ -93,13 +93,14 @@ input, select {
 /*///////////////////////////MY STYLES///////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////START HERE/////////////////////////////////////////////////////////////////////////////////////////*/
 
-/*text color #39434A*/
+/*text color slightly darker #383240*/
 body    {
     background-color: #BDC1C4;
 }
 .wrapper{
     margin: 0 auto;
-    width: 1150px;
+    height:fit-content;
+    width: 95%;
 }
 .header{
     width: 100%;
@@ -120,8 +121,107 @@ body    {
     color: #BDC1C4;
     text-align: center;
 }
+
+
+
 .jobexp{
-    margin: 0 auto 0 25px;
-    width: 500px;
+    margin: 0 0 0 25px;
+    height: 500px;
+    width: 40%;
     background-color: #40394A;
+    display: inline-block;
+}
+.jobexp h1{
+    font-size: 35px;
+    text-align: center;
+    color: #BDC1C4;
+    background-color: #40394A
+}
+.jobexp h2{
+    font-size: 25px;
+    margin: 5px 0px 5px 20px;
+    color: #BDC1C4;
+    background-color: #40394A
+}
+.jobexp h3{
+    font-size: 16px;
+    margin: 2px 0px 5px 20px;
+    color: #BDC1C4;
+    background-color: #40394A
+}
+.jobexp p{
+    font-size: 12px;
+    margin: 3px 5px 0px 20px;
+    text-indent: 10%;
+    color: white;
+    background-color: #40394A;
+}
+
+
+
+.aboutme{
+    margin: 0 25px 0 0px;
+    height: 500px;
+    width: 40%;
+    background-color: #40394A;
+    position: relative;
+    float: right;
+    box-align: right;
+}
+.aboutme h1{
+    font-size: 35px;
+    text-align: center;
+    color: #BDC1C4;
+    background-color: #40394A
+}
+.aboutme h2{
+    font-size: 25px;
+    margin: 5px 0px 5px 20px;
+    color: #BDC1C4;
+    background-color: #40394A
+}
+.aboutme p{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 3px 5px 0px 20px;
+    text-indent: 10%;
+    color: white;
+    background-color: #40394A;
+}
+.acomheader{
+    height: 50px;
+    width: 100%;
+    background-color: #40394A;
+}
+.acomheader h1{
+    font-size: 35px;
+    margin: 5px 0px 25px 55px;
+    color: #BDC1C4;
+    background-color: #40394A
+}
+.acom{
+    width: 100%;
+    height: max-content;
+    background-color: #40394A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item{
+    flex-basis: 20%;
+}
+
+.acom h2{
+    font-size: 20px;
+    color: #BDC1C4;
+    display: inline-block;
+    margin: 20px 0 5px 0px;
+}
+.acom p{
+    font-size: 14px;
+    color: white;
+    margin: 0 10px 5px 0px;
+    text-indent: 10%;
+    text-justify: inter-word; 
 }

@@ -180,6 +180,7 @@ body    {
     color: #BDC1C4;
     background-color: #333333;
 }
+
 .aboutme p{
     font-size: 14px;
     line-height: 20px;
@@ -187,6 +188,9 @@ body    {
     text-indent: 10%;
     color: white;
     background-color: #333333;
+}
+p :hover{
+    color:#000;
 }
 .acomheader{
     height: 50px;
